@@ -23,10 +23,10 @@
             <div class="dropdown">
               <button class="links">Menu</button>
               <div class="anchors-hidden">
-              <a href="">Pricing</a>
-              <a href="">Docs</a>
-              <a href="">About</a>
-            </div>
+                <a href="">Pricing</a>
+                <a href="">Docs</a>
+                <a href="">About</a>
+              </div>
             </div>
             <div class="flex sign">
               <a href="#">Sign in</a>
@@ -86,5 +86,15 @@
       </article>
       <small>&copy; Banana Bandit</small>
     </div>
+
+    <script>
+      window.addEventListener("DOMContentLoaded", function () {
+        const dropdownBtn = document.querySelector(".links");
+        const dropdownLinks = document.querySelector(".anchors-hidden");
+        dropdownBtn.addEventListener("click", function () {
+          dropdownLinks.classList.toggle("block");
+        });
+      });
+    </script>
   </body>
 </html>

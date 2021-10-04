@@ -94,7 +94,7 @@ a {
 }
 
 .flex a:hover {
-    border-bottom: 2px solid rgb(9, 107, 213);
+    border-bottom: 4px solid rgb(9, 107, 213);
 }
 
 @media screen and (max-width: 660px) {
@@ -192,20 +192,30 @@ a {
     }
 
     .links {
-        border: none;
-        color: rgb(9, 107, 213);
+        border: .5px solid rgb(9, 107, 213);
+        color: white;
+        background-color: rgb(9, 107, 213);
         font-size: 1rem;
         font-weight: bold;
-        background-color: white;
+        border-radius: 3px;
+        /* gitbox-shadow: 2px 2px 2px lightslategray; */
+        margin-bottom: 5px;
     }
 
-    .dropdown:hover .anchors-hidden {
+    /* .dropdown:hover .anchors-hidden { *** This can be used when you don't want to use JavaScript
         display: flex;
         flex-direction: column;
         gap: 1em;
+    } */
+
+    /* .anchors-hidden a:hover {
+        border-bottom: 2px solid rgb(9, 107, 213);
+    } */
+
+    .block {
+        display: flex;
+        flex-direction: column;
+        gap: .5em;
     }
 
-    .anchors-hidden a:hover {
-        border-bottom: 1px solid rgb(9, 107, 213);
-    }
 }
