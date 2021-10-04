@@ -129,13 +129,13 @@ a {
         padding: 1em;
         border-radius: 10px;
         padding-top: 2.5em;
+        padding-bottom: 2em;
+        align-content: flex-start;
     }
 
     .btn {
         padding: .5em .5em;
         border-radius: .2em;
-        
-       
         background-color: aliceblue;
         color: rgb(9, 107, 213);
         font-weight: bold;
@@ -149,7 +149,7 @@ a {
         font-size: 1rem;
         display: flex;
         flex-direction: column;
-        gap: .5em;
+        gap: .8em;
     }
 
     .flex {
@@ -172,7 +172,7 @@ a {
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
-        gap: 1em;
+        gap: 1.5em;
     }
 
     .dropdown {
