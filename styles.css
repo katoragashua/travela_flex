@@ -97,6 +97,10 @@ a {
     border-bottom: 4px solid rgb(9, 107, 213);
 }
 
+article.flex div {
+    text-align: center;
+}
+
 @media screen and (max-width: 660px) {
     body {
         margin: 0;
